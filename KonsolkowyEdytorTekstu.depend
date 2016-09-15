@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1473930092 source:g:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\main.cpp
+	<iostream>
+	<process.h>
+	<ctime>
+	<conio.h>
+	"include\Konsolka.h"
+
+1473860912 source:g:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\src\konsolka.cpp
+	"Konsolka.h"
+
+1473858446 g:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\include\konsolka.h
+	<windows.h>
+
+1473930685 source:i:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\src\konsolka.cpp
+	"Konsolka.h"
+
+1473930685 i:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\include\konsolka.h
+	<windows.h>
+
+1473937485 source:i:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\main.cpp
+	<iostream>
+	<process.h>
+	<ctime>
+	<conio.h>
+	"include\Konsolka.h"
+	"include\EdytorTekstu.h"
+
+1473937485 i:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\include\edytortekstu.h
+	"Konsolka.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1473937969 source:i:\scuro guardiano\c++\projekty\konsolkowyedytortekstu\src\edytortekstu.cpp
+	"EdytorTekstu.h"
+
