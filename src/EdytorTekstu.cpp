@@ -69,7 +69,7 @@ void EdytorTekstu::BackSpace()
             cout<<string(3, '\0');
 
             this->aktualnaLinia--;
-            this->OstatniaPozycja.X = this->licznikLinii[this->aktualnaLinia] + 4; //Bo od 4 linijki zaczyna siê pisanie
+            this->OstatniaPozycja.X = this->licznikLinii[this->aktualnaLinia] + 4; //Bo od 4 linijki zaczyna siÃª pisanie
             this->OstatniaPozycja.Y--;
             this->Konsola->UstawKursor(this->OstatniaPozycja);
 
@@ -95,7 +95,7 @@ void EdytorTekstu::NapiszZnak(char Znak)
             this->licznik++;
             this->aktualnaLinia++;
 
-            this->Konsola->UstawKolorek(FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+            this->Konsola->UstawKolorek(FOREGROUND_BLUE | FOREGROUND_RED | FOREGROUND_INTENSITY);
             if(this->aktualnaLinia + 1 < 10) cout<<"0"<<this->aktualnaLinia + 1<<"|";
             else cout<<this->aktualnaLinia + 1<<"|";
             this->Konsola->UstawKolorek(FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_INTENSITY | FOREGROUND_RED);
