@@ -12,12 +12,12 @@ CRITICAL_SECTION Sekcja_Kryt;
 
 void _cdecl GornaLinia(void * args)
 {
-    time_t TimeMarchesTimeMarchesOnWithoutUsAllCauseTimeMarchesTimeMarchesOnAndOnAndOnFliesEternally;
+    time_t czas2;
     tm * czas;
     while(true)
     {
-        time(& TimeMarchesTimeMarchesOnWithoutUsAllCauseTimeMarchesTimeMarchesOnAndOnAndOnFliesEternally);
-        czas = localtime(& TimeMarchesTimeMarchesOnWithoutUsAllCauseTimeMarchesTimeMarchesOnAndOnAndOnFliesEternally);
+        time(& czas2);
+        czas = localtime(& czas2);
 
         EnterCriticalSection(&Sekcja_Kryt);
 
